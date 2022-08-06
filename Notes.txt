@@ -1,0 +1,2 @@
+This is a base for creating a full chatbot using Python.
+Feel free to edit this file, BUT if you create something and upload it anywere, or do anything like that please credit me.
