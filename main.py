@@ -26,4 +26,5 @@ def Main():
     print(ComputerName + ": My name is " + ComputerName + ", let's start a conversation")
     UserInput()
 
-Main()
+if __name__ == "__main__":    
+    Main()
