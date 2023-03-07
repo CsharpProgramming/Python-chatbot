@@ -9,14 +9,14 @@ def UserInput():
         print(ComputerName + ": Well, hello " + UserName + "!")
         UserInput()
 
-    if UserMsg == "goodbye":
+    else if UserMsg == "goodbye":
         print(ComputerName + ": Goodbye " + UserName + "!")
         quit()
 
     else:
         print(ComputerName + ": Sorry, may you say that again?")
         if UserMsg == "no":
-            print(ComputerName + ": addios :(")
+            print(ComputerName + ": goodbye :(")
             quit()
         UserInput()
 
