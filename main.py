@@ -20,11 +20,7 @@ def UserInput():
             quit()
         UserInput()
 
-
-def Main():
+if __name__ == "__main__":
     print(ComputerName + ": Hello boss! Welcome to your chatbot")
     print(ComputerName + ": My name is " + ComputerName + ", let's start a conversation")
     UserInput()
-
-if __name__ == "__main__":    
-    Main()
