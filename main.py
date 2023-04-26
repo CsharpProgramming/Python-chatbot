@@ -5,17 +5,17 @@ UserName = "Admin"
 def UserInput():
     UserMsg = input(UserName + ": ")
     
-    if UserMsg == "hello":
+    if UserMsg.lower() == "hello":
         print(ComputerName + ": Well, hello " + UserName + "!")
         UserInput()
 
-    else if UserMsg == "goodbye":
+    else if UserMsg.lower() == "goodbye":
         print(ComputerName + ": Goodbye " + UserName + "!")
         quit()
 
     else:
         print(ComputerName + ": Sorry, may you say that again?")
-        if UserMsg == "no":
+        if UserMsg.lower() == "no":
             print(ComputerName + ": goodbye :(")
             quit()
         UserInput()
